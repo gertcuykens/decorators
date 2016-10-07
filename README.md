@@ -10,7 +10,7 @@ I am trying to figure out how the Polymer 2.x typescript decorators get generate
 
     tsc
 
-## Use example decorators.js
+## Use decorators.js
 
     import {customElement, property, query, queryAll, observe} from 'decorators.js';
 
