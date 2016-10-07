@@ -1,7 +1,16 @@
 import {customElement, property, query, queryAll, observe} from 'decorators.js';
 
-@customElement('test-element')
-export class TestElement extends Polymer.Element {
+@customElement('hello-world')
+export class HelloWorld extends Polymer.Element {
+    
+    constructor() {
+        super()
+        const t = document.querySelector('template') as HTMLTemplateElement
+        if (t == null) return;
+        const instance = t.content.cloneNode(true)
+        const shadowRoot = this.attachShadow({ mode: 'open' })
+        shadowRoot.appendChild(instance)
+    }
 
     @property({notify: true})
     aNum: number = 42;

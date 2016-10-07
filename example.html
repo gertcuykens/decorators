@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html > 
+
+<head>
+  <title>Test</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <template>
+    <style>
+      :host {
+          display: block;                                                                                                      
+          box-sizing: border-box;                                                                                              
+          border: 1px solid red;
+          margin: 13px 0;
+          padding: 0 17px;
+      }
+    </style>
+    <p>Test <slot></slot></p>
+  </template>
+  <script src="example.js"></script>
+  <hello-world>Hello World</hello-world>
+</body>
+
+</html>
