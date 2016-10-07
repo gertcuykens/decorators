@@ -1,0 +1,20 @@
+{
+  "name": "decorators",
+  "version": "0.0.0",
+  "private": true,
+  "main": "example.html",
+  "ignore": [
+    "bower_components",
+    "node_modules",
+    "test",
+    "Makefile",
+    "**/.*",
+    "**/*.ts",
+    "**/*.md",
+    "**/*.json"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0-preview",
+    "webcomponentsjs": "#v1"
+  }
+}
