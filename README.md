@@ -4,6 +4,7 @@ I am trying to figure out how the Polymer 2.x typescript decorators get generate
 
 ## Install
 
+    bower install
     npm i -D reflect-metadata
 
 ## Compile
