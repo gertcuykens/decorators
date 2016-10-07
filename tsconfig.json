@@ -9,6 +9,7 @@
     "noImplicitThis": true,
     "noImplicitAny" : true,
     "sourceMap": false,
-    "lib": ["es2017", "dom"]
+    "lib": ["es2017", "dom"],
+    "typeRoots" : ["typings"]
   }
 }
