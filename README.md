@@ -15,8 +15,6 @@ I am trying to figure out how the Polymer 2.x typescript decorators get generate
 
     http-server -o
 
-[example](http://localhost:8080/example.html)
-
 ## Use decorators.js
 
     import {customElement, property, query, queryAll, observe} from 'decorators.js';
