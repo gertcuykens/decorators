@@ -4,10 +4,11 @@
  * Based on https://www.w3.org/TR/2016/WD-custom-elements-20160830/
  */
 
+declare let customElements: CustomElementRegistry;
+
 interface Window {
   readonly customElements: CustomElementRegistry;
 }
-declare let customElements: CustomElementRegistry;
 
 interface CustomElementRegistry {
   define(name: string, constructor: Function, options?: ElementDefinitionOptions): void;

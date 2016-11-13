@@ -1,11 +1,12 @@
 # Polymer 2.x decorators
 
-I am trying to figure out how the Polymer 2.x typescript decorators get generated?
+Polymer 2.x typescript decorators example.
 
 ## Install
 
     bower install
     npm i -D reflect-metadata
+    npm i -D requirejs
 
 ## Compile
 

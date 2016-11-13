@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="import" href="bower_components/polymer/polymer-element.html">
+  <!-- <link rel="import" href="bower_components/imd/imd.html"> -->
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="node_modules/requirejs/require.js" data-main="../hello-world" type="text/javascript"></script>
 </head>
 
 <body>
@@ -19,9 +22,8 @@
           padding: 0 17px;
       }
     </style>
-    <p>Test <slot></slot></p>
+    <p>Decorator Test <slot></slot></p>
   </template>
-  <script src="example.js"></script>
   <hello-world>Hello World</hello-world>
 </body>
 
