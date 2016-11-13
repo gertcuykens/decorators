@@ -17,6 +17,6 @@
   "dependencies": {
     "polymer": "Polymer/polymer#2.0-preview",
     "webcomponentsjs": "#v1",
-    "imd": "PolymerLabs/IMD#^1.0.0"
+    "imd": "PolymerLabs/IMD#master"
   }
 }
