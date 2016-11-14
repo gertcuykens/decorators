@@ -1,8 +1,8 @@
 {
-  "name": "decorators",
+  "name": "hello-world",
   "version": "0.0.0",
   "private": true,
-  "main": "example.html",
+  "main": "index.html",
   "ignore": [
     "bower_components",
     "node_modules",
@@ -17,6 +17,7 @@
   "dependencies": {
     "polymer": "Polymer/polymer#2.0-preview",
     "webcomponentsjs": "#v1",
-    "imd": "PolymerLabs/IMD#master"
+    "imd": "PolymerLabs/IMD#master",
+    "reflect-metadata": "^0.1.8"
   }
 }

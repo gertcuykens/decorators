@@ -5,8 +5,6 @@ Polymer 2.x typescript decorators example.
 ## Install
 
     bower install
-    npm i -D reflect-metadata
-    npm i -D requirejs
 
 ## Compile
 
@@ -18,7 +16,7 @@ Polymer 2.x typescript decorators example.
 
 ## Use decorators.js
 
-    import {customElement, property, query, queryAll, observe} from 'decorators.js';
+    import {customElement, property, query, queryAll, observe} from 'decorators';
 
     @customElement('test-element')
     export class TestElement extends Polymer.Element {

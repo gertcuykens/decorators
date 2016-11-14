@@ -1,4 +1,6 @@
-import {customElement, property, query, queryAll, observe} from 'decorators.js';
+/// <amd-module name="hello-world"/>
+
+import {customElement, property, query, queryAll, observe} from 'decorators';
 
 @customElement('hello-world')
 export class HelloWorld extends Polymer.Element {

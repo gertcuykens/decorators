@@ -2,7 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es2015",
-    "module": "umd",
+    "module": "amd",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictNullChecks": true,

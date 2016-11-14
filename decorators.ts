@@ -8,6 +8,7 @@
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
+/// <amd-module name="decorators"/>
 /// <reference path="./node_modules/reflect-metadata/Reflect.d.ts" />
 
 /**
