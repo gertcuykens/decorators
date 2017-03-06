@@ -15,9 +15,10 @@
     "**/*.json"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#2.0-preview",
-    "webcomponentsjs": "#v1",
+    "polymer": "Polymer/polymer#2.0.0-rc.1",
+    "webcomponentsjs": "#v1.0.0-rc.4",
     "imd": "PolymerLabs/IMD#master",
-    "reflect-metadata": "^0.1.8"
+    "reflect-metadata": "^0.1.8",
+    "requirejs": "^2.3.2"
   }
 }
